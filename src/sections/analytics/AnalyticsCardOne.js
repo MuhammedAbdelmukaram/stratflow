@@ -2,7 +2,6 @@ import React from 'react';
 import Image from "next/image";
 import AndIcon from "../../../public/AndIcon.png";
 import OrIcon from "../../../public/OrIcon.png";
-import "../../assets/analytics.css"
 
 const AnalyticsCardOne = () => {
     return (

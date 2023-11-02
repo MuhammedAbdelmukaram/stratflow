@@ -4,7 +4,7 @@ import Link from "next/link";
 import TikTok from "../../../public/TikTok.png"
 import DemoPeople from "../../../public/demopeople.png"
 import LogoCta from "../../../public/LogoCTA.png"
-import "../../assets/CTA.css"
+
 const FlowsCta = () => {
     return (
         <div className={"home-cta-wrapper"}>

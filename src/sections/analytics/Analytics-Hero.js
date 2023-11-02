@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image"
-import "../../assets/analytics.css"
 import demoImage from "../../../public/demopeople.png";
 import TriggerAction from "../../../public/TriggerAction.png"
 const AnalyticsHero = () => {

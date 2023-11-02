@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../assets/CTA.css';
+
 
 const Sliderone = ({ onDisplayValueChange }) => { // Destructure the prop correctly
     const [value, setValue] = useState(0);

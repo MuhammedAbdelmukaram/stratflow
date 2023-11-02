@@ -4,7 +4,6 @@ import Image from "next/image";
 import SecondBullet from "../../../public/CardBullet2.png";
 import FirstBullet from "../../../public/CardBullet1.png";
 import ThirdBullet from "../../../public/CardBullet3.png";
-import "../../assets/analytics.css"
 const AnalyticsCardTwo = () => {
     return (
         <div style={{height:500, paddingTop:30, paddingLeft:"20vw", paddingRight:"20vw",display:"flex", justifyContent:"space-between", backgroundColor:'#fff', color:'#000'}}>

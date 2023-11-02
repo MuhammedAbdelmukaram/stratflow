@@ -4,8 +4,7 @@ import DemoPeople from "../../../public/demopeople.png"
 import LogoCta from "../../../public/LogoCTA.png"
 import Image from "next/image";
 import Link from "next/link";
-import "../../assets/analytics.css"
-import "../../assets/CTA.css";
+
 const AnalyticsCta = () => {
     return (
         <div className={"home-cta-wrapper"}>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../assets/CTA.css';
+
 
 const Slidertwo = ({ onDisplayValueChange }) => {
     const [value, setValue] = useState(0);
