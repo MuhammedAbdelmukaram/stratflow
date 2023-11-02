@@ -14,7 +14,7 @@ const FlowsCardOne = () => {
 
             <div className={"flows-left-side-second-card"}>
                 {/* Use Suspense to handle the loading state of the SVG */}
-                <Image
+                <img
                     src={Gif1}
                     height={355}
                     width={630}
