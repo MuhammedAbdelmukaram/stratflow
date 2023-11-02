@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "@/sections/common/header";
-import "../assets/globals.css";
+
 import Footer from "@/sections/common/footer";
 import AnalyticsHero from "@/sections/analytics/Analytics-Hero";
 import AnalyticsCardOne from "@/sections/analytics/AnalyticsCardOne";

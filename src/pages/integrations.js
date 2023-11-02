@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "@/sections/common/header";
 import Footer from "@/sections/common/footer";
-import "../assets/globals.css";
+
 import IntegrationsHero from "@/sections/integrations/IntegrationsHero";
 import IntegrationsCarousel from "@/sections/integrations/IntegrationsCarousel";
 const Integrations = () => {
