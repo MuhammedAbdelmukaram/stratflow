@@ -35,6 +35,7 @@ const StrategiesCardOne = () => {
 
                 <div style={{backgroundColor:"#06ad85", display:"flex", paddingTop:84, justifyContent:"center", paddingBottom:100, marginTop:20, marginRight:"10vw"}}>
                     {<Image
+                        unoptimized={true}
                         src={activeStrategy === 'A' ? StrategyA : StrategyB} // Assuming you've imported StrategyB similar to StrategyA
                         width={500} // These are the natural dimensions of your image
                         height={281.25}

@@ -35,6 +35,7 @@ const FlowsCardOne = () => {
                 <div className={"flows-three-bullets"}>
                     <div className={"flows-single-bullet"}>
                         <Image
+                            unoptimized={true}
                         src={AndIcon}
                         height={85}
                         alt={"and icon"}
