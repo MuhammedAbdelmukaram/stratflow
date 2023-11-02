@@ -4,8 +4,8 @@ import AndIcon from "../../../public/AndIcon.png";
 import OrIcon from "../../../public/OrIcon.png";
 import Human1 from "../../../public/human1.png"
 import Company1 from "../../../public/Company1.png"
-import StrategyA from "../../../public/Strategy A.gif"
-import StrategyB from "../../../public/Strategy B.gif"
+import StrategyA from "../../../public/StrategyA.gif"
+import StrategyB from "../../../public/StrategyB.gif"
 import IconsStrategies from "@/sections/strategies/IconsStrategies";
 import Link from "next/link";
 import StrategiesReviewStrat from "@/sections/strategies/StrategiesReviewStrat";

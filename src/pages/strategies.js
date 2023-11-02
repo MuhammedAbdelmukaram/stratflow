@@ -7,7 +7,7 @@ import StrategiesThreeIcon from "@/sections/strategies/StrategiesThreeIcon";
 import Header from "@/sections/common/header";
 import Footer from "@/sections/common/footer";
 import Image from "next/image";
-import StrategyA from "../../public/Strategy A.gif";
+import StrategyA from "../../public/StrategyA.gif";
 import StrategiesReviewStrat from "@/sections/strategies/StrategiesReviewStrat";
 import StrategiesLine from "@/sections/strategies/StrategiesLine";
 
