@@ -1,0 +1,17 @@
+.signup-CTA-Button {
+    cursor: pointer;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding:6px 80px 6px 80px;
+    height:50px;
+    border-radius: 8px;
+    width: 294px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #4E4E4E;
+    margin-right: 20px;
+    margin-top: 110px;
+}

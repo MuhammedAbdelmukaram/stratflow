@@ -1,0 +1,113 @@
+.green-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.green-text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.texts{
+    color:#1a1a1a;
+    margin-bottom: 40px;
+}
+.green-underline{
+    border-bottom:4px solid #06ad85;
+    display: inline-block;
+}
+.card-heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    line-height: 102%;
+    margin-top: 10px;
+}
+.card-subtitle{
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    width:480px;
+    font-weight: 400;
+}
+.card-subtitle-three{
+    font-size: 17px;
+    margin-top: 70px;
+    text-align: left;
+    width:480px;
+    font-weight: 400;
+}
+.three-bullets{
+    margin-top: 26px;
+}
+.single-bullet{
+    margin-bottom: 20px ;
+    display: flex;
+    align-items: center;
+}
+.bullet-text{
+    margin-left: 24px;
+    font-weight: 600;
+    color:#1a1a1a;
+}
+.bullet-text-link{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 19px;
+    font-weight: 600;
+    color:#1a1a1a;
+}
+.bullet-text-link:hover {
+    text-decoration: none;
+}
+.right-side-first-card{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    align-items: center;
+}
+.left-side-first-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+.image-placeholder{
+
+    height: 310px;
+    width: 420px;
+    background-color: #06ad85;
+}
+.left-side-second-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-side-image-wrapper img{
+
+    border-radius: 20px;
+}
+
+.right-side-second-card{
+    width: 480px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.card-subtitle-second-card{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    width:480px;
+    font-weight: 400;
+}
+
+.image-container img {
+    border-radius: 20px; /* Adjust the value as needed */
+}

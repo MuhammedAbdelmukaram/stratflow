@@ -1,0 +1,38 @@
+.announcementBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.announcementBar .centeredContent {
+    text-align: center;
+}
+
+.announcementBar p {
+    color: #333;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.announcementBar .text {
+    font-weight: lighter;
+    color: #ffffff;
+    margin-right: 14px;
+}
+
+.announcementBar .link {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.body{
+    margin:0px;
+}
+

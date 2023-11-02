@@ -1,0 +1,161 @@
+.left-side{
+    display: flex;
+    flex-direction:column;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.right-side{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-buttons{
+     display:flex;
+    align-items: center;
+     margin-top: 24px;
+ }
+
+.create-flow-button {
+    background-color: #06ad85;
+    font-family: Catamaran;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    width: 187px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.create-flow-button:hover {
+    background-color: #11a280; /* Change the background color on hover */
+    transform: scale(1.02); /* Slightly scale up the button */
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3); /* Adjust the box shadow */
+}
+.demo-button{
+    display: flex;
+    cursor: pointer;
+    border-radius: 4px;
+    align-items: center;
+    font-family: Catamaran;
+    font-size: 14px;
+    justify-content: center;
+    border: none;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    height: 50px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.demo-button:hover {
+    background-color: #1a1a1a; /* Change the background color on hover */
+    transform: scale(1.02); /* Slightly scale up the button */
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3); /* Adjust the box shadow */
+}
+
+.video-container {
+    margin-top: 98px;
+    position: relative;
+    width: 642px;
+    height: 366px;
+    background-color: #fff;
+    margin-left: 80px;
+}
+
+.video-player {
+    object-fit: contain;
+    z-index: 1;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.video-play-button svg {
+    fill: white;
+}
+
+
+/* Responsive styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .left-side {
+        text-align: center;
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .right-side {
+        display: none; /* Hide the right-side content on smaller screens */
+    }
+}
+
+/* Responsive styles for screens between 601px and 1200px */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .left-side {
+        padding: 30px; /* Adjust padding for medium-sized screens */
+    }
+}
+
+/* Responsive styles for screens larger than 1200px */
+@media screen and (min-width: 1201px) {
+    .left-side {
+        padding: 40px; /* Adjust padding for larger screens */
+    }
+}
+
+
+/*Hero reviews*/
+
+.hero-reviews-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    background-color: #fff;
+    padding-top: 180px;
+}
+
+.hero-wrapper{
+
+}
+.hero-single-review{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-review-title{
+    font-size: 16px;
+    font-weight: bold;
+    color:#000;
+}
+
+.hero-review-result{
+    font-size: 38px;
+    line-height:38px;
+    font-family: "Arial";
+    font-weight: 800;
+    color:#000;
+}
+
+.hero-review-images{
+    display: flex;
+    align-items: center;
+}
+

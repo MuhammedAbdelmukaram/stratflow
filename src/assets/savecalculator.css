@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+
+.save-calculator-wrapper{
+    background-color: #06ad85;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.save-heading{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.save-calculator-left-side{
+    padding-top: 80px;
+}
+
+.save-calculator-both{
+    color: #1a1a1a;
+}
+
+.save-calculator-result-wrapper{
+    display: flex;
+}
+
+.save-calculator-right-side{
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.save-calculator-result-description{
+    font-size: 12px;
+}
+
+
+
+.save-calculator-result{
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.save-calculator-single-result-wrapper{
+    display: flex;
+    flex-direction: column;
+    border:1px solid #1a1a1a;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width:250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* SLIDER UNIVERSAL */
+.slider-question{
+    color: white;
+    font-size: 17px;
+    margin-bottom:8px ;
+}
+
+.single-slider-wrapper{
+    margin-top: 30px;
+}
+
+.single-slider-texts{
+    display: flex;
+    width: 600px ;
+    justify-content: space-between;
+}
+
+.slider-value{
+    font-size: 22px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* SLIDER ONE */
+
+.slider-one-container {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.custom-slider-one {
+    background-color: black;
+    border-radius: 4px;
+    height: 30px;
+    padding: 3px;
+    appearance: none;
+    border: none;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.custom-slider-one::-webkit-slider-thumb {
+    background-color: white;
+    border-radius: 2px;
+    width: 34px;
+    height: 24px;
+    appearance: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+.custom-slider-one::-moz-range-thumb {
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-one-value {
+    color: white;
+    font-size: 16px;
+}
+
+
+/* SLIDER TWO */
+
+.slider-two-container {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.custom-slider-two {
+    background-color: white;
+    border-radius: 4px;
+    height: 30px;
+    padding: 3px;
+    appearance: none;
+    border: none;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.custom-slider-two::-webkit-slider-thumb {
+    background-color: white;
+    border:2px solid black;
+    border-radius: 2px;
+    width: 34px;
+    height: 24px;
+    appearance: none;
+
+
+    cursor: pointer;
+}
+
+.custom-slider-two::-moz-range-thumb {
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-two-value {
+    color: white;
+    font-size: 16px;
+}

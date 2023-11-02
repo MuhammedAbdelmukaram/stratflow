@@ -1,0 +1,144 @@
+.experts-left-side-first-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.experts-hero-wrapper{
+    padding-top: 160px;
+    background-color: white;
+    color: #1a1a1a;
+}
+
+.experts-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experts-green-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.experts-green-underline{
+    border-bottom:4px solid #06ad85;
+    display: inline-block;
+    width: 170px;
+}
+
+.experts-green-text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.experts-card-heading{
+
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    line-height: 102%;
+    margin-top: 10px;
+}
+
+.experts-card-subtitle{
+    margin-top: 20px;
+    text-align: center;
+    width:480px;
+    font-weight: 300;
+}
+
+.experts-hero-images{
+    display:flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+experts-demo-button-wrapper{
+    cursor: pointer;
+}
+.experts-demo-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06ad85;
+    color: #ffffff;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 14px;
+    height: 42px;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.experts-demo-button:hover{
+    background-color: #11a280; /* Change the background color on hover */
+    transform: scale(1.02); /* Slightly scale up the button */
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.experts-grey-line-wrapper{
+    margin-top: 30px;
+}
+
+.experts-single-expert-wrapper{
+    padding: 20px 50px 20px 50px;
+    border:1px solid #1a1a1a;
+    border-radius: 12px;
+    width: 35vw;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.experts-card-image-name{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.experts-card-bottom-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experts-single-row{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.experts-container{
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.experts-card-person-name{
+    margin-left: 20px;
+
+}
+
+.experts-card-read-more-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06ad85;
+    border-radius: 20px;
+    color: #ffffff;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 14px;
+    height: 42px;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}

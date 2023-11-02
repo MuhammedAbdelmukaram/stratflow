@@ -1,0 +1,174 @@
+/* Integrations Hero */
+
+.integrations-hero-wrapper{
+    padding-top: 160px;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.integrations-left-side-first-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.integrations-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrations-green-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.integrations-green-underline{
+    border-bottom:4px solid #06ad85;
+    display: inline-block;
+    width: 170px;
+}
+
+.integrations-green-text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.integrations-card-heading{
+
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    line-height: 102%;
+    margin-top: 10px;
+    width: 600px;
+}
+
+.integrations-card-subtitle{
+    margin-top: 20px;
+    text-align: center;
+    width:480px;
+    font-weight: 300;
+}
+
+.integrations-demo-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06ad85;
+    color: #ffffff;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 14px;
+    height: 42px;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.integrations-grey-line-wrapper{
+    margin-top: 30px;
+}
+
+
+.carousel-container{
+    background-color: white;
+    padding-bottom: 180px;
+}
+
+.carousel-items{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06ad85;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+
+.carousel-upper-texts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carousel-comming-soon{
+    color: #06AD85;
+    margin-bottom: 6px;
+}
+
+.carousel-item{
+    background-color: white;
+    color: #1a1a1a;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 420px;
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    box-shadow: -7px 5px 9px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+}
+
+.carousel-item-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.connect-button {
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding:6px;
+    height:30px;
+    border-radius: 4px;
+    width: 90px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #4E4E4E;
+}
+
+.learn-more-button{
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.carousel-item-headline{
+    font-size: 34px;
+    margin-top: 26px;
+    font-weight: 500;
+}
+
+.carousel-item-text{
+    font-size: 14px;
+}
+
+.carousel-left-button, .carousel-right-button {
+    margin: 0px 30px 0px 30px;
+    color:#1a1a1a;
+    font-size: 24px; /* Increase the size of the arrow characters */
+    padding: 10px 15px; /* Add some padding around the arrows */
+    background-color: #f3f3f3; /* A light background color */
+    border: none; /* Remove default borders */
+    border-radius: 5px; /* Slight rounding of corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.carousel-left-button:hover, .carousel-right-button:hover {
+    background-color: #e0e0e0; /* Darken the background slightly on hover */
+}

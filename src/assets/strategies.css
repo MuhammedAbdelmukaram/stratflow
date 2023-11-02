@@ -1,0 +1,348 @@
+.strategies-left-side-first-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.strategies-green-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    margin-bottom: 20px;
+}
+
+.strategies-green-underline{
+    border-bottom:4px solid #06ad85;
+    display: inline-block;
+    width: 170px;
+}
+
+.strategies-green-text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.strategies-card-heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    line-height: 102%;
+    margin-top: 10px;
+}
+.strategies-card-subtitle{
+    margin-top: 20px;
+    text-align: left;
+    width:480px;
+    font-weight: 300;
+}
+
+.strategies-hero-images{
+    display:flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.strategies-create-flow-button{
+    background-color: #06ad85;
+    color:#ffffff;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    box-shadow:0 0 7px 2px rgba(0, 0, 0, 0.25);
+    width: 171px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.strategies-demo-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    height: 50px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.strategies-right-side-first-card{
+    margin-top:100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* Strategies THREE ICON */
+
+.strategies-three-icon-wrapper{
+    background-color: #1a1a1a;
+    padding-bottom: 53px;
+    padding-top:40px;
+}
+
+.strategies-three-icon-heading{
+    padding-top: 60px;
+    margin-bottom: 80px;
+    color: white;
+    text-align: center;
+}
+
+.strategies-three-icon-single-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.strategies-three-icons{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strategies-three-icon-header{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
+}
+.strategies-three-icon-subtitle{
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    color: white;
+}
+
+/*Strategies Second Card */
+
+
+.strategies-left-side-second-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.strategies-image-placeholder{
+
+    height: 310px;
+    width: 420px;
+    background-color: #06ad85;
+}
+
+.strategies-right-side-second-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.strategies-three-bullets{
+
+    height: 18vw;
+    background-color: #06AD85;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.see-cheatsheat-button{
+    background-color: #06ad85;
+    font-family: Catamaran;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    width: 187px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+
+.strategies-single-bullet{
+    margin-bottom: 20px ;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.strategies-bullet-text{
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1vw;
+}
+.strategies-bullet-text-button{
+    font-size: 0.8vw;
+    text-decoration: underline;
+}
+
+.strategies-bullet-text-button {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1vw;
+    text-align: left;
+    transition: font-size 0.3s;
+    background-color: #14bd95;
+    color: #1a1a1a;
+    padding: 20px 10px 20px 10px;
+    border-width: 0px;
+    margin-top: 10px;
+
+
+}
+
+.strategies-bullet-text-button-active {
+
+    text-align: left;
+    cursor: pointer;
+    font-size: 1vw;
+    border-radius: 6px;
+    color: #1a1a1a;
+    background-color: #00d5a9;
+    padding: 20px 10px 20px 10px;
+    font-weight: bold;
+    border-width: 0px;
+    margin-top: 10px;
+}
+
+
+.icons-strategies{
+    height: 46px;
+    width: auto;
+}
+
+.strategies-review-wrapper{
+    width: 450px;
+    flex:1;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #F7F7F7 ;
+}
+
+.strategies-human-image{
+    float: right;
+}
+
+
+/* Strategies Book Demo */
+
+.strategies-book-demo-wrapper{
+    background-color: #F8F8F8;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 60px;
+}
+.strategies-book-demo-texts{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.strategies-book-demo-text{
+    font-size: 52px;
+    color: #1a1a1a;
+}
+
+.strategies-book-demo-left-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.strategies-book-demo-box-wrapper{
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+    width: 500px;
+    height: 75px;
+    border: 1px solid #1a1a1a;
+}
+
+.strategies-book-demo-box-one{
+    height: 35px;
+    width: 35px;
+    background-color: #06ad85;
+    border-radius:12px ;
+}
+
+.strategies-book-demo-box-two{
+    height: 35px;
+    width: 35px;
+    background-color: #7506ad;
+    border-radius:12px ;
+    margin-left: 6px;
+}
+
+.strategies-book-demo-color-boxes{
+    display: flex;
+    align-items: center;
+    margin-left:24px;
+}
+
+.strategies-book-demo-gray-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px ;
+}
+
+.strategies-book-demo-gray-upper{
+    width: 350px;
+    height: 12px;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+    margin-bottom: 6px;
+}
+
+.strategies-book-demo-gray-lower{
+    width: 120px;
+    height: 12px;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+}
+
+.strategies-book-demo-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.strategies-book-demo-box-shift-one{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.strategies-book-demo-box-shift-two{
+    margin-top: 30px;
+    margin-left: 100px;
+}

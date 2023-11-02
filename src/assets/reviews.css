@@ -1,0 +1,134 @@
+.reviews-wrapper{
+    height: 380px;
+    width: 100vw;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, #e5e5e5 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-top: 1px solid #E4E4E4;
+}
+.reviews-inner-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    color:#1a1a1a;
+}
+
+.reviews-left-side{
+    margin-bottom: 60px;
+}
+
+.review-text{
+    width: 768px;
+}
+
+.reviews-buttons{
+
+}
+
+.reviews-and-indicator{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.under-text{
+    display: flex;
+    align-items: center;
+}
+.review-name{
+    margin-left: 70px;
+}
+
+.review-title{
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+.image-man{
+    display: flex;
+    align-items:flex-end ;
+    justify-content: flex-end;
+}
+
+
+.review-button {
+    width: 30px;
+    height: 22px;
+    background-color: #1a1a1a;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin-right: 16px; /* This will give space between buttons */
+}
+
+.reviews-left-side {
+    transition: transform 0.5s;
+}
+
+.review-entering-right, .review-exiting-right {
+    transform: translateX(100%);
+}
+
+.review-entering-left, .review-exiting-left {
+    transform: translateX(-100%);
+}
+
+.review-entered {
+    transform: translateX(0);
+}
+
+
+.plus-button .right-triangle {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 9px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+}
+
+.minus-button .left-triangle {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 9px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+}
+
+.black-line{
+    margin-top: 30px;
+    height: 1px;
+    width: 50%;
+    background-color: #1a1a1a;
+}
+
+
+.review-indicators {
+    display: flex;
+    align-items: center;
+    margin-left:370px;
+    gap: 7px; /* Adjust this value for spacing between lines */
+}
+
+.indicator {
+    border-radius: 2px;
+    width: 25px; /* Adjust width as needed */
+    height: 4px; /* Adjust height as needed */
+    background-color: #c9c9c9; /* Light color for inactive lines */
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: #1a1a1a; /* Dark color for the active line */
+}

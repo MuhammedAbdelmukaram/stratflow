@@ -1,0 +1,93 @@
+
+.home-cta-wrapper{
+    height: 530px;
+    background-color: #1a1a1a;
+
+}
+
+.home-cta-text{
+    font-size: 98px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
+}
+
+.home-cta-mid-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17vw;
+}
+.home-cta-image-box{
+    margin-top: 130px;
+    height: fit-content;
+    border: 2px solid white;
+}
+
+.home-cta-image{
+    margin-top: 120px;
+    margin-left: 14vw;
+}
+.home-cta-right-side{
+    margin-top: 90px;
+}
+
+.home-cta-white-line{
+    border-bottom: 1px solid white;
+    width:57vw;
+    float: right;
+}
+
+.home-cta-buttons-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top:60px;
+}
+
+.home-cta-connect-account-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06ad85;
+    width: 300px;
+    height: 56px;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 60px;
+}
+.home-cta-connect-account-image{
+    margin-right: 8px;
+}
+.home-cta-connect-account-button{
+    font-family: 'Carme', sans-serif;
+    letter-spacing: -0.75px;
+    font-size: 16px;
+    background-color: #06ad85;
+    border:none;
+    color:white;
+}
+.home-cta-demo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: #1a1a1a;
+    width: 230px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 27vw;
+
+}
+.home-cta-book-demo{
+    background-color: #1a1a1a;
+    border:none;
+    color:white;
+}
+
+
+

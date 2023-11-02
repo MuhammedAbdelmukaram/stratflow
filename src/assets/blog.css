@@ -1,0 +1,76 @@
+/* Integrations Hero */
+
+.blog-hero-wrapper{
+    height: 50vw;
+    padding-top: 160px;
+    background-color: white;
+    color:black;
+}
+
+.blog-left-side-first-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.blog-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-green-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.blog-green-underline{
+    border-bottom:4px solid #06ad85;
+    display: inline-block;
+    width: 170px;
+}
+
+.blog-green-text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blog-card-heading{
+
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    line-height: 102%;
+    margin-top: 10px;
+    width: 600px;
+}
+
+.blog-card-subtitle{
+    margin-top: 20px;
+    text-align: center;
+    width:480px;
+    font-weight: 300;
+}
+
+.blog-demo-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06ad85;
+    color: #ffffff;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 14px;
+    height: 42px;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.blog-grey-line-wrapper{
+    margin-top: 30px;
+}
+
