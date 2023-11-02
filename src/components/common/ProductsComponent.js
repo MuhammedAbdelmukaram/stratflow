@@ -1,5 +1,4 @@
 import React from 'react';
-import "../../assets/header.css";
 import Image from 'next/image';
 import Products from "../../../public/products.png";
 import Link from "next/link";

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from "next/image";
-import "../../assets/hero.css";
 const HeroReview = (props) => {
     return (
         <div>

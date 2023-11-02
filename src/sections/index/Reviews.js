@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Image from 'next/image';
-import "../../assets/reviews.css";
 import Company4 from "../../../public/Company4.png"
 import Company1 from "../../../public/Company1.png"
 import Company2 from "../../../public/Company2.png"

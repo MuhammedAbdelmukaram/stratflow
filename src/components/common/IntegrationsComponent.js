@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Integrations from '../../../public/Integrations.png'
 import Link from "next/link";
-import "../../assets/header.css";
 
 
 const IntegrationsComponent = () => {

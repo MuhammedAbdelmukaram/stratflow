@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import "../../assets/header.css";
 import LogoImage from "../../../public/logo.png";
 import DownArrow from "../../../public/downarrow.png";
 import ProductsComponent from "@/components/common/ProductsComponent";

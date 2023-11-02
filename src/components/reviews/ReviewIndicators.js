@@ -1,5 +1,4 @@
 import react from 'react';
-import "../../assets/reviews.css";
 
 const ReviewIndicators = ({ current, total }) => {
     return (

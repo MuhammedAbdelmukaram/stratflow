@@ -1,5 +1,4 @@
 import React, {useRef, useState} from 'react';
-import "../../assets/hero.css";
 import Link from 'next/link';
 import Image from 'next/image';
 import demoImage from '../../../public/demopeople.png'

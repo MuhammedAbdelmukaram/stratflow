@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import StratFlowBasic from "../../components/pricing/StratFlowBasic";
 import StratFlowPro from "../../components/pricing/StratFlowPro";
 import StratFlowEnterprise from "../../components/pricing/StratFlowEnterprise";
-import "../../assets/plans.css";
 
 const PlansOptions = (props) => {
     const [billingPeriod, setBillingPeriod] = useState('monthly');

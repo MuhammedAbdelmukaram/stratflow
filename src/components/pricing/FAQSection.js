@@ -1,5 +1,4 @@
 import React from 'react';
-import "../../assets/plans.css";
 const FAQItem = ({ question, answer }) => {
     return (
         <div className={"faq-question-container"}>

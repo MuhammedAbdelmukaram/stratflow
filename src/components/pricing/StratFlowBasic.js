@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Card} from "react-bootstrap";
 import Checkmark from '../../../public/Checkmark.png'
-import "../../assets/plans.css";
 import Image from "next/image";
 
 

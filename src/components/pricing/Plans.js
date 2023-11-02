@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
-import "../../assets/plans.css";
 import PlansOptions from "../../components/pricing/PlansOptions"
 import FAQSection from "../../components/pricing/FAQSection";
 

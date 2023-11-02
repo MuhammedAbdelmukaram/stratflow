@@ -2,7 +2,6 @@ import {Card} from "react-bootstrap";
 import React from "react";
 import StratFlowPro from "./StratFlowPro";
 import Checkmark from '../../../public/Checkmark.png'
-import "../../assets/plans.css";
 import Image from "next/image";
 
 const StratFlowEnterprise = () => {

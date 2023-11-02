@@ -3,10 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import StrategiesHeroImage from "../../../public/strategieshero.png";
-import "../../assets/strategies.css"
 import IconsStrategies from "@/sections/strategies/IconsStrategies";
 import demoImage from "../../../public/demopeople.png";
-import "../../assets/hero.css";
 const StrategiesHero = () => {
     return (
         <div style={{ paddingTop:200, paddingBottom:80, paddingLeft:"20vw", paddingRight:"20vw",display:"flex", justifyContent:"center",backgroundColor:'#fff', color:'#000'}}>

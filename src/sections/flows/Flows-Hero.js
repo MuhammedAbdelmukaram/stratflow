@@ -3,7 +3,6 @@ import Image from "next/image";
 import SecondBullet from "../../../public/CardBullet2.png";
 import FirstBullet from "../../../public/CardBullet1.png";
 import ThirdBullet from "../../../public/CardBullet3.png";
-import "../../assets/flows.css";
 import TriggerAction from "../../../public/TriggerAction.png"
 import Link from "next/link";
 import demoImage from "../../../public/demopeople.png";

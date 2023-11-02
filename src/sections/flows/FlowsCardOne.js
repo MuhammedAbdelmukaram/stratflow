@@ -2,7 +2,6 @@ import React, {Suspense} from 'react';
 import Image from "next/image";
 import AndIcon from "../../../public/AndIcon.png";
 import OrIcon from "../../../public/OrIcon.png";
-import "../../assets/flows.css";
 import Gif1 from "../../../public/Gif1.gif"
 
 

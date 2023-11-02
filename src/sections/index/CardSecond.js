@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from "next/image";
-import "../../assets/card.css";
 import Detection from "../../../public/HeroImage3.png"
 import Link from "next/link";
 import arrowIcon from "../../../public/arrowIcon.png"
