@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import GreyLine from "@/components/scalepausebudget/GreyLine";
-import "../../assets/blog.css"
+
 
 const BlogHero = () => {
     return (

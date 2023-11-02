@@ -1,5 +1,4 @@
 import React from 'react';
-import "../../assets/footer.css"
 import Link from "next/link";
 import Image from "next/image";
 import FooterStratflowColumn from "@/components/common/Footer/FooterStratflowColumn";

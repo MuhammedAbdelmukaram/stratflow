@@ -1,7 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
-import "../../assets/card.css"
-import FirstBullet from "../../../public/CardBullet1.png"
+import Image from 'next/image'import FirstBullet from "../../../public/CardBullet1.png"
 import SecondBullet from "../../../public/CardBullet2.png"
 import ThirdBullet from "../../../public/CardBullet3.png"
 import HeroImage1 from "../../../public/Scale.png"

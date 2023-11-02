@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../../assets/savecalculator.css';
 import Sliderone from '@/components/savecalculator/sliderone';
 import Slidertwo from '@/components/savecalculator/slidertwo';
 

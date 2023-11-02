@@ -1,6 +1,5 @@
 import React from 'react';
 import AnnouncementBar from '../components/common/announcementBar';
-import '../assets/globals.css';
 import Header from "@/sections/common/header";
 import Hero from "@/sections/index/hero";
 import HeroReviews from "@/sections/index/hero-reviews";

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import  '../../assets/hero.css'
 import HeroReview from "@/components/hero/heroReview";
 import Human1 from "../../../public/human1.png"
 import Human2 from "../../../public/human2.png"

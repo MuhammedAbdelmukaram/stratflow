@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../../assets/flows.css';
 import CardBullet1 from '../../../public/ScaleA.png';
 import CardBullet2 from '../../../public/DecreaseA.png';
 import CardBullet3 from '../../../public/PauseA.png';

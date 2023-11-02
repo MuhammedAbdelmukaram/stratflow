@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from "next/link";
 import GreyLine from "@/components/scalepausebudget/GreyLine";
-import "../../assets/cheatsheet.css"
 
 const CheatSheetHero = () => {
     return (

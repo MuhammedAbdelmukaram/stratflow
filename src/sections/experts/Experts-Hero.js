@@ -1,5 +1,4 @@
 import React from 'react';
-import "../../assets/experts.css"
 import Image from "next/image";
 import demoImage from "../../../public/demopeople.png";
 import Link from "next/link";

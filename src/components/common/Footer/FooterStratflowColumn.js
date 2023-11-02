@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from "next/link";
-import "../../../assets/footer.css"
 const FooterStratflowColumn = () => {
     return (
         <div>

@@ -4,7 +4,6 @@ import StrategiesHand from '../../../public/StrategiesHand.png'
 import StrategiesShield from '../../../public/StrategiesShield.png'
 import StrategiesPower from '../../../public/StrategiesPower.png'
 import StrategiesHero from "@/sections/strategies/Strategies-Hero";
-import "../../assets/strategies.css"
 
 const StrategiesThreeIcon = () => {
     return (

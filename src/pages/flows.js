@@ -6,7 +6,6 @@ import FlowsCardOne from "@/sections/flows/FlowsCardOne";
 import FlowsCardTwo from "@/sections/flows/FlowsCardTwo";
 import ScalePauseBudget from "@/sections/flows/ScalePauseBudget";
 import FlowsCTA from "@/sections/flows/FlowsCTA";
-import '../assets/globals.css';
 
 const Flows = () => {
     return (

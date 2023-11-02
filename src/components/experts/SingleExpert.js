@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import "../../assets/experts.css"
 import Link from "next/link";
 const SingleExpert = (props) => {
     return (
