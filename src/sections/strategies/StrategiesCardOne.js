@@ -1,17 +1,18 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Image from "next/image";
 import AndIcon from "../../../public/AndIcon.png";
 import OrIcon from "../../../public/OrIcon.png";
 import Human1 from "../../../public/human1.png"
 import Company1 from "../../../public/Company1.png"
-import StrategyA from "@/../public/StrategyA.gif";
-import StrategyB from "@/../public/StrategyB.gif";
+import StrategyA from "@/assets/StrategyA.gif";
+import StrategyB from "@/assets/StrategyB.gif";
 import IconsStrategies from "@/sections/strategies/IconsStrategies";
 import Link from "next/link";
 import StrategiesReviewStrat from "@/sections/strategies/StrategiesReviewStrat";
 const StrategiesCardOne = () => {
 
     const [activeStrategy, setActiveStrategy] = useState('A');
+
 
     return (
 
@@ -33,13 +34,13 @@ const StrategiesCardOne = () => {
 
 
                 <div style={{backgroundColor:"#06ad85", display:"flex", paddingTop:84, justifyContent:"center", paddingBottom:100, marginTop:20, marginRight:"10vw"}}>
-                    {<img
+                    {<Image
                         src={activeStrategy === 'A' ? StrategyA : StrategyB} // Assuming you've imported StrategyB similar to StrategyA
                         width={500} // These are the natural dimensions of your image
                         height={281.25}
 
                     alt={"Gif of strategies"}>
-                    </img>}
+                    </Image>}
 
                 </div>
 

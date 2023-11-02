@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import Image from "next/image";
 import AndIcon from "../../../public/AndIcon.png";
 import OrIcon from "../../../public/OrIcon.png";
-import Gif1 from "../../../public/Gif1.gif"
+import Gif1 from "../../assets/Gif1.gif"
 
 
 const MySVGAnimation = React.lazy(() => import('../../util/MySVGAnimation'));

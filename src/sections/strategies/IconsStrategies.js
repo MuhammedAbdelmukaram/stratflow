@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import StrategyA from "../../../public/StrategyA.gif";
+import StrategyA from "../../assets/StrategyA.gif";
 import StrategyIcon1 from "../../../public/1.png"
 import StrategyIcon2 from "../../../public/2.png"
 import StrategyIcon3 from "../../../public/3.png"
