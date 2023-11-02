@@ -41,7 +41,7 @@ const FlowsCardOne = () => {
                         height={85}
                         alt={"and icon"}
                         ></Image>
-                        <p className={"flows-bullet-text"}>Stack your rules one beneath the other, and they automatically work together, like a powerful "AND" command </p>
+                        <p className={"flows-bullet-text"}>Stack your rules one beneath the other, and they automatically work together, like a powerful AND command </p>
                     </div>
                     <div className={"flows-single-bullet"}>
                         <Image
@@ -50,7 +50,7 @@ const FlowsCardOne = () => {
                         alt={"or icon"}>
 
                         </Image>
-                        <p className={"flows-bullet-text"}>If you want some flexibility, simply stack rules next to each other, and they'll behave as a "OR", where you can assign unique action to both rules</p>
+                        <p className={"flows-bullet-text"}>If you want some flexibility, simply stack rules next to each other, and theyll behave as a OR, where you can assign unique action to both rules</p>
                     </div>
 
 

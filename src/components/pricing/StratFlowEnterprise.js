@@ -31,7 +31,7 @@ const StratFlowEnterprise = () => {
 
                     </h4>
 
-                    <p style={{fontSize:42, marginBottom:0}}>Let's Talk</p>
+                    <p style={{fontSize:42, marginBottom:0}}>Lets Talk</p>
                     <p style={{fontSize:12, marginBottom:5}}>Custom plan for teams and large organizations tailored to
                         your needs
                     </p>

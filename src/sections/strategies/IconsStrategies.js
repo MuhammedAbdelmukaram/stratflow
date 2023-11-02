@@ -20,18 +20,22 @@ const IconsStrategies = () => {
                 <div>
                         <Image
                             src={StrategyIcon1}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
                         <Image
                             src={StrategyIcon2}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
                         <Image
                             src={StrategyIcon3}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
                         <Image
                             src={StrategyIcon4}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
 
@@ -39,18 +43,22 @@ const IconsStrategies = () => {
 
                         <Image
                             src={StrategyIcon5}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
                         <Image
                             src={StrategyIcon6}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
                         <Image
                             src={StrategyIcon7}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
                         <Image
                             src={StrategyIcon8}
+                            alt="StratIcon"
                             className={"icons-strategies"}>
                         </Image>
 

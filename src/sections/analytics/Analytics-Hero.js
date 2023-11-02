@@ -17,7 +17,7 @@ const AnalyticsHero = () => {
                         </div>
                     </div>
                     <p className={"analytics-card-heading"}>Gain true insight in your ads performance</p>
-                    <p className={"analytics-card-subtitle"}>Find what’s working and increase stakes. Elevate the game with our reports, delivering unparalleled insights that surpass TikTok's Ordinary Analytics. </p>
+                    <p className={"analytics-card-subtitle"}>Find what’s working and increase stakes. Elevate the game with our reports, delivering unparalleled insights that surpass TikToks Ordinary Analytics. </p>
                 </div>
 
                 <div className={"analytics-hero-buttons"}>

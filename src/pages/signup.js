@@ -78,7 +78,7 @@ const Signup = () => {
                             now
                         </h2>
                         <div style={{width:560, fontSize:15, marginTop:20, textAlign:"justify"}}>
-                            <p>You're not just getting a front-row seat to our platform's launch – you'll soon receive an email granting you immediate access. And here's the best part: as an early adopter, you'll automatically enjoy all our Pro features, absolutely free. </p>
+                            <p>Youre not just getting a front-row seat to our platforms launch – youll soon receive an email granting you immediate access. And heres the best part: as an early adopter, youll automatically enjoy all our Pro features, absolutely free. </p>
                         </div>
                         <div style={{width:580, height:2, backgroundColor:"#eaeaea", marginTop:10}}></div>
                     </div>
