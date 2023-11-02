@@ -4,7 +4,6 @@ import ImageBanner from '../../public/TriggerAction.png'
 import ImageBanner2 from '../../public/StrategyBanner.jpg'
 import Header from "@/sections/common/header";
 import '../assets/globals.css';
-import '../assets/Signup.css'
 import {Catamaran} from "next/dist/compiled/@next/font/dist/google";
 const Signup = () => {
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import StrategiesCta from "@/sections/strategies/StrategiesCTA";
-import "../assets/CTA.css";
 import StrategiesHero from "@/sections/strategies/Strategies-Hero";
 import StrategiesCardOne from "@/sections/strategies/StrategiesCardOne";
 import StrategiesBookDemo from "@/sections/strategies/StrategiesBookDemo";
