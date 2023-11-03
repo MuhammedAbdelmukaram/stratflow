@@ -4,8 +4,7 @@ import AndIcon from "../../../public/AndIcon.png";
 import OrIcon from "../../../public/OrIcon.png";
 import Human1 from "../../../public/human1.png"
 import Company1 from "../../../public/Company1.png"
-import StrategyA from "@/assets/StrategyA.gif";
-import StrategyB from "@/assets/StrategyB.gif";
+
 import IconsStrategies from "@/sections/strategies/IconsStrategies";
 import Link from "next/link";
 import StrategiesReviewStrat from "@/sections/strategies/StrategiesReviewStrat";
@@ -13,6 +12,8 @@ const StrategiesCardOne = () => {
 
     const [activeStrategy, setActiveStrategy] = useState('A');
 
+    const StrategyA = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdiZDV1NzVxcDQzMHkzNXY0MmNrdnNubGtyZ2Zmd2kya21nY3F6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13Wq4kTUxALS8w0fqx/giphy.gif";
+    const StrategyB = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3E3dTB2MTI0YWpmMDQ4cTd5c253cjY1NnJ1OXZ1enB6NW4wdnkxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SpHZ6iDnhcdWRzEsmQ/giphy.gif";
 
     return (
 

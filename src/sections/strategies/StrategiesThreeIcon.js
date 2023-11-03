@@ -29,7 +29,7 @@ const StrategiesThreeIcon = () => {
                     <Image
                     src={StrategiesShield}></Image>
                     <p className={"strategies-three-icon-header"}>Maintain</p>
-                    <p className={"strategies-three-icon-subtitle"}>Let it run for days, weeks, mot</p>
+                    <p className={"strategies-three-icon-subtitle"}>Let it run for days, weeks, months..</p>
                 </div>
             </div>
 
