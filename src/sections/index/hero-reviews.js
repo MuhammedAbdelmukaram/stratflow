@@ -12,7 +12,7 @@ import Compnay4 from "../../../public/Company4.png"
 
 const HeroReviews = () => {
     return (
-        <div style={{}}>
+        <div style={{backgroundColor:"#fff"}} className={"hero-reviews-wrapper-wrapper"}>
             <div className={"hero-reviews-wrapper"}>
 
                 <HeroReview

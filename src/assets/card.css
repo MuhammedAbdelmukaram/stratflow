@@ -10,6 +10,27 @@
     justify-content: center;
     text-align: center;
 }
+/* In your CSS file */
+.card-first-wrapper {
+    padding-top: 200px; /* Adjust units as needed */
+    padding-left: 20vw; /* vw is a relative unit that is based on the width of the viewport */
+    padding-right: 20vw;
+    display: flex;
+    justify-content: center;
+    background-color: #fff; /* shorthand for white */
+}
+
+.card-second-wrapper {
+     /* Assuming you want a fixed height of 500 pixels */
+    padding-left: 20vw; /* 20% of the viewport's width */
+    padding-right: 20vw; /* 20% of the viewport's width */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers children horizontally */
+    background-color: #fff; /* White background */
+    padding-top: 140px; /* Padding at the top of 400 pixels */
+}
+
+
 .texts{
     color:#1a1a1a;
     margin-bottom: 40px;
@@ -110,4 +131,68 @@
 
 .image-container img {
     border-radius: 20px; /* Adjust the value as needed */
+}
+
+
+/* Continue with your previous styles and then add the following */
+
+/* This media query applies styles when the viewport width is 768px or less */
+@media (max-width: 1170px) {
+    .card-first-wrapper {
+        flex-direction: column-reverse; /* Reverses the order of flex items */
+        box-sizing: content-box;
+        padding-top: 116px;
+        padding-left: 0; /* Adjusts padding for smaller screens */
+        padding-right: 0; /* Adjusts padding for smaller screens */
+    }
+    .card-second-wrapper{
+        flex-direction: column;
+        box-sizing: content-box;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+
+    .left-side-first-card{
+        width: 100%; /* Makes each side take full width of the container */
+        margin-left: 0; /* Resets the margin for smaller screens */
+        justify-content: center; /* Centers content */
+        align-items: center; /* Ensures items are centered within the flex container */
+    }
+
+    .right-side-first-card {
+        width: 100%; /* Makes each side take full width of the container */
+        margin-left: 0; /* Resets the margin for smaller screens */
+        justify-content: center; /* Centers content */
+        align-items: center; /* Ensures items are centered within the flex container */
+    }
+
+    .right-side-second-card{
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-side-second-card {
+        justify-content: center;
+    }
+
+    /* Adjust the .image-container styles for smaller screens if necessary */
+    .image-container {
+        margin-bottom: 20px; /* Adds space below the image when it's on top */
+    }
+
+    /* Adjust text container styles if necessary */
+    .texts,
+    .three-bullets {
+        text-align: center; /* Centers the text for a better mobile view */
+        margin-left: 5%; /* Gives some space from the edge of the screen */
+        margin-right: 5%; /* Gives some space from the edge of the screen */
+        width: 480px;
+    }
+
+    /* Additional adjustments for .single-bullet can be made here if necessary */
 }

@@ -6,7 +6,7 @@
 }
 
 .home-cta-text{
-    font-size: 98px;
+    font-size: 6vw;
     color: white;
     font-weight: 700;
     display: flex;
@@ -23,6 +23,7 @@
     margin-top: 130px;
     height: fit-content;
     border: 2px solid white;
+    width: fit-content;
 }
 
 .home-cta-image{
@@ -42,7 +43,7 @@
 .home-cta-buttons-wrapper{
     display: flex;
     align-items: center;
-    width: 100%;
+
     justify-content: flex-end;
     margin-top:60px;
 }
@@ -87,6 +88,79 @@
     background-color: #1a1a1a;
     border:none;
     color:white;
+}
+
+
+/* Example of a media query that reduces the scale and margin-top value for screens smaller than 1200px */
+@media (max-width: 1200px) {
+    .home-cta-image-box {
+
+        transform: scale(0.9); /* Reduce size to 90% of the original */
+        margin-top: 0px; /* Reduce the margin at the top slightly */
+    }
+    .home-cta-text {
+        width: fit-content;
+        margin-right: 8vw; /* Adjust the right margin to keep the text inside the viewport */
+        font-size: 5.5vw; /* Optionally adjust the font size if necessary */
+    }
+    .home-cta-text-line{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .home-cta-mid-wrapper{
+        flex-direction: column;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-cta-right-side{
+        margin-top: 0px;
+    }
+    .home-cta-wrapper{
+        padding-top: 100px;
+        height: 640px;
+    }
+}
+
+/* Further reduce for screens smaller than 992px */
+@media (max-width: 992px) {
+    .home-cta-image-box {
+        transform: scale(0.8); /* Reduce size to 80% of the original */
+        margin-top: 90px; /* Further reduce the margin at the top */
+    }
+    .home-cta-text {
+        margin-right: 6vw;
+        font-size: 5vw;
+    }
+    .home-cta-wrapper{
+        padding-top: 0px;
+    }
+}
+
+/* And so on for smaller screens */
+@media (max-width: 768px) {
+    .home-cta-image-box {
+        transform: scale(0.7); /* Reduce size to 70% of the original */
+        margin-top: 70px;
+    }
+    .home-cta-text {
+        margin-right: 4vw;
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-cta-image-box {
+        transform: scale(0.6); /* Reduce size to 60% of the original */
+        margin-top: 50px;
+    }
+    .home-cta-text {
+        margin-right: 2vw;
+        font-size: 4vw;
+    }
 }
 
 

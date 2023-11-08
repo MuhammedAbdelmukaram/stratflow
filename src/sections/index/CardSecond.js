@@ -5,9 +5,7 @@ import Link from "next/link";
 import arrowIcon from "../../../public/arrowIcon.png"
 const CardSecond = () => {
     return (
-        <div style={{height:500, paddingLeft:"20vw", paddingRight:"20vw",display:"flex", backgroundColor:'#fff', justifyContent:"center", paddingTop:400}}>
-
-
+        <div className={"card-second-wrapper"}>
             <div className={"left-side-second-card"}>
                 <div className={"left-side-image-wrapper"}>
                     <Image

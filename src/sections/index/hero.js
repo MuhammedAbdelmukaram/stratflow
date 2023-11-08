@@ -18,7 +18,7 @@ const Hero = () => {
 
 
     return (
-        <div style={{ height: '500px', paddingLeft:"16vw", paddingRight:"16vw", display:"flex", justifyContent:"center", paddingTop:80, backgroundColor:"#fff"}}>
+        <div className={"left-side-wrapper"} >
             <div className={"left-side"}>
                 <div>
                     <p style={{color:"#06ad85"}}>DRAG AND DROP</p>
@@ -52,7 +52,8 @@ const Hero = () => {
                 <video
                     ref={videoRef}
                     controls
-                    width="642"
+                    width="100%"
+                    height="100%"
                     controlsList="nodownload noplaybackrate"
                     data-testid="video"
                     disablePictureInPicture

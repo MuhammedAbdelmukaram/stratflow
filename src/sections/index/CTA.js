@@ -20,7 +20,7 @@ const Cta = () => {
                 </div>
 
                 <div className={"home-cta-right-side"}>
-                    <div>
+                    <div className={"home-cta-text-line"}>
                         <p className={"home-cta-text"}>GET STARTED NOW</p>
                         <div className={"home-cta-white-line"}></div>
                     </div>

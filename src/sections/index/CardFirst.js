@@ -6,7 +6,7 @@ import ThirdBullet from "../../../public/CardBullet3.png"
 import HeroImage1 from "../../../public/Scale.png"
 const CardFirst = () => {
     return (
-        <div style={{height:500, paddingTop:200, paddingLeft:"20vw", paddingRight:"20vw",display:"flex", justifyContent:"center", backgroundColor:'#fff'}}>
+        <div className={"card-first-wrapper"}>
 
 
                <div className={"left-side-first-card"}>

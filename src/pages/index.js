@@ -22,7 +22,7 @@ const HomePage = () => {
                 <CardSecond/>
                 <CardThird/>
             </div>
-            <div style={{backgroundColor:"white"}}>
+            <div style={{backgroundColor:"white", paddingTop:120}}>
                 <SaveCalculator/>
             <Reviews/>
             </div>

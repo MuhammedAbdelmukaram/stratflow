@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const CardThird = () => {
     return (
-        <div style={{height:700, paddingTop:550, paddingBottom:350,paddingLeft:"20vw", paddingRight:"20vw",display:"flex", justifyContent:"center", backgroundColor:'#fff', }}>
+        <div className={"card-first-wrapper"}>
 
 
             <div className={"left-side-first-card"}>
@@ -24,19 +24,21 @@ const CardThird = () => {
                     <p className={"card-subtitle-second-card"}><span style={{fontWeight:"600"}}>Haven’t checked ads in a while?</span> - no worries, you dont have to. We make sure everything is in check while you are away.</p>
 
                 </div>
-                <Link href={"/signup"}>
-                    <div className={"single-bullet"} style={{justifyContent:"flex-end"}}>
-                        {/*<Image></Image>*/}
-                        <p className={"bullet-text-link"}>Try Stratflow Pro  </p>
-                        <Image
-                            style={{marginLeft:10}}
-                            src={arrowIcon}
-                            height={24}
-                            alt={"detection"}>
+                <div className={"three-bullets"}>
+                    <Link href={"/signup"}>
+                        <div className={"single-bullet"} style={{justifyContent:"flex-start"}}>
+                            {/*<Image></Image>*/}
+                            <p className={"bullet-text-link"}>Try Stratflow Pro  </p>
+                            <Image
+                                style={{marginLeft:10}}
+                                src={arrowIcon}
+                                height={24}
+                                alt={"detection"}>
 
-                        </Image>
-                    </div>
-            </Link>
+                            </Image>
+                        </div>
+                     </Link>
+                </div>
             </div>
             <div className={"right-side-first-card"}>
 

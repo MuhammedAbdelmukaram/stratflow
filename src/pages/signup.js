@@ -3,12 +3,25 @@ import Image from 'next/image';
 import ImageBanner from '../../public/TriggerAction.png'
 import ImageBanner2 from '../../public/StrategyBanner.jpg'
 import Header from "@/sections/common/header";
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../../firebase';
+
 import {Catamaran} from "next/dist/compiled/@next/font/dist/google";
+import AnnouncementBar from "@/components/common/announcementBar";
 const Signup = () => {
 
     const images = [ImageBanner, ImageBanner2]; // Add your images here
     const [currentIndex, setCurrentIndex] = useState(0);
     const progressBarRef = useRef(null);
+
+    const [email, setEmail] = useState('');
+    const [isEmailValid, setEmailValid] = useState(false);
+
+    const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+    useEffect(() => {
+        setEmailValid(emailRegex.test(email));
+    }, [email]);
 
     useEffect(() => {
         const updateProgressBar = () => {
@@ -32,12 +45,39 @@ const Signup = () => {
         return () => clearInterval(interval); // Cleanup on unmount
     }, []);  // Only run once at component mount
 
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        if (!isEmailValid) {
+            alert('Please enter a valid email address.');
+            return;
+        }
+
+        // Get the values from the form inputs
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+
+        try {
+            // Add a new document with a generated id to the "leads" collection
+            const docRef = await addDoc(collection(db, "users"), {
+                name: name,
+                email: email,
+                // You can add more fields here if needed
+            });
+
+            console.log("Document written with ID: ", docRef.id);
+            // Here you can clear the form or show a success message
+        } catch (e) {
+            console.error("Error adding document: ", e);
+            // Here you can handle the error, show an error message, etc.
+        }
+    };
+
 
     return (
         <div>
-            <Header/>
+            <AnnouncementBar/>
 
-            <div style={{ display: 'flex', height: '100vh', paddingTop:"104px", backgroundColor:"#fff"}}>
+            <div style={{ display: 'flex', height: '100vh', backgroundColor:"#fff"}}>
 
                 {/* Left Half */}
                 <div style={{ flex: 1, backgroundColor: '#06ad85', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: "-9px 0px 54px 12px rgba(0, 0, 0, 0.25)" }}>
@@ -67,7 +107,7 @@ const Signup = () => {
 
                 {/* Right Half */}
                 <div style={{ flex: 1, backgroundColor: 'white', padding: '2rem', color:"#1a1a1a" }}>
-                    <div style={{paddingTop:70, paddingLeft:52}}>
+                    <div style={{paddingTop:110, paddingLeft:52}}>
                         <h2 style={{ fontSize: 38, fontFamily: 'Catamaran, sans-serif' }}>
                             Get your
                             <span style={{ fontSize: 38, backgroundColor: "#1a1a1a", color: "#fff", paddingLeft: 12, marginLeft:6, marginRight:6, paddingRight: 12, paddingTop: 2, fontFamily: 'Catamaran, sans-serif' }}>
@@ -83,7 +123,7 @@ const Signup = () => {
 
 
 
-                    <form style={{ paddingLeft: 58, paddingTop: 60 }}>
+                    <form  onSubmit={handleSubmit} style={{ paddingLeft: 58, paddingTop: 60 }}>
                         <div style={{ marginBottom: '1.5rem', maxWidth: 200 }}>
                             <label style={{ display: "flex", flexDirection: "column", color: 'rgba(26, 26, 26, 0.7)', fontSize:13 }}>
                                 Full Name:
@@ -106,13 +146,13 @@ const Signup = () => {
                                         transition: 'border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out'
                                     }}
                                     type="text"
-                                    name="fullname"
+                                    name="name"
                                     placeholder="John Doe"
                                 />
                             </label>
                         </div>
                         <div style={{ marginBottom: '1rem', maxWidth: 200 }}>
-                            <label style={{ display: "flex", flexDirection: "column", color: 'rgba(26, 26, 26, 0.7)',fontSize:13 }}>
+                            <label style={{ display: "flex", flexDirection: "column", color: 'rgba(26, 26, 26, 0.7)', fontSize: 13 }}>
                                 Email:
                                 <input
                                     style={{
@@ -136,8 +176,12 @@ const Signup = () => {
                                     type="email"
                                     name="email"
                                     placeholder="Your email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    className={isEmailValid ? 'valid' : 'invalid'}
                                 />
                             </label>
+                            {!isEmailValid && email && <p style={{ color: 'red' }}>Please enter a valid email address.</p>}
                             <div style={{width:386, display:"flex",alignItems:"center", justifyContent:"center"}}>
                                 <div style={{
                                     position: 'absolute',

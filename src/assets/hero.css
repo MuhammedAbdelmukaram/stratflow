@@ -5,6 +5,16 @@
     margin-left: 40px;
 }
 
+.left-side-wrapper {
+    height: 500px;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    background-color: #fff;
+}
+
 .right-side{
     display:flex;
     align-items: center;
@@ -74,10 +84,11 @@
 }
 
 .video-player {
+    transform: scale(0.88);
+    transform-origin: center;
     object-fit: contain;
     z-index: 1;
 }
-
 .video-play-button {
     position: absolute;
     top: 50%;
@@ -92,44 +103,87 @@
     fill: white;
 }
 
-
-/* Responsive styles for screens smaller than 600px */
-@media screen and (max-width: 600px) {
-    .left-side {
-        text-align: center;
-        padding: 20px; /* Adjust padding for smaller screens */
-    }
-
-    .right-side {
-        display: none; /* Hide the right-side content on smaller screens */
-    }
-}
-
-/* Responsive styles for screens between 601px and 1200px */
-@media screen and (min-width: 601px) and (max-width: 1200px) {
-    .left-side {
-        padding: 30px; /* Adjust padding for medium-sized screens */
-    }
-}
-
 /* Responsive styles for screens larger than 1200px */
 @media screen and (min-width: 1201px) {
     .left-side {
         padding: 40px; /* Adjust padding for larger screens */
+        margin-left: 0px;
     }
 }
+
+/* Larger screens, default scale */
+@media (max-width: 1281px) {
+    .video-player {
+        transform: scale(0.84);
+    }
+    .video-container {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+/* Responsive styles for screens smaller than 600px */
+@media screen and (max-width: 1170px) {
+    .left-side {
+        text-align: left;
+        padding: 20px; /* Adjust padding for smaller screens */
+        margin-left: 0px;
+    }
+
+    .left-side-wrapper {
+        display: flex;
+        flex-direction: column;
+        box-sizing: content-box;
+        align-items: center;
+        padding-top: 340px;
+    }
+    .video-container {
+        margin-top: 20px;
+        width: 100vw;
+        height: unset;
+    }
+    .video-player {
+        transform: scale(1.00);
+    }
+    .hero-reviews-wrapper{
+        box-sizing: content-box;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-left: 40px;
+        padding-right: 40px;
+        background-color: #fff;
+
+    }
+    .hero-reviews-wrapper-wrapper{
+        padding-top: 20%;
+    }
+
+}
+
+/* Extra small screens */
+@media (max-width: 830px) {
+    .left-side{
+        margin-top:0px;
+    }
+
+}
+
 
 
 /*Hero reviews*/
 
 .hero-reviews-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
-    padding-left: 18vw;
-    padding-right: 18vw;
+    margin-left: 40px;
+    padding-right: 40px;
     background-color: #fff;
-    padding-top: 180px;
+    padding-top: 120px;
 }
 
 .hero-wrapper{
