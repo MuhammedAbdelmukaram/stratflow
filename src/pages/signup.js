@@ -123,7 +123,7 @@ const Signup = () => {
 
 
 
-                    <form  onSubmit={handleSubmit} style={{ paddingLeft: 58, paddingTop: 60 }}>
+                    <form  onSubmit={handleSubmit} data-netlify="true" style={{ paddingLeft: 58, paddingTop: 60 }}>
                         <div style={{ marginBottom: '1.5rem', maxWidth: 200 }}>
                             <label style={{ display: "flex", flexDirection: "column", color: 'rgba(26, 26, 26, 0.7)', fontSize:13 }}>
                                 Full Name:
