@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.stratflow.io
+
+# Sitemaps
+Sitemap: https://www.stratflow.io/sitemap.xml
